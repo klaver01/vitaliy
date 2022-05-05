@@ -1,0 +1,47 @@
+body {
+    font-family: sans-serif;
+    background: url(../image/back.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow-y: hidden;
+}
+
+.container {
+    width: 80vw;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    padding-top: 150px;
+}
+
+.text-block {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    
+}
+
+h1 {
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+p {
+    text-align: center;
+}
+
+.img-block {
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+.img-block img {
+    width: 120px;
+    border-radius: 10px;
+    border: 4px solid rgb(238, 234, 12);
+    padding: 10px;
+}
